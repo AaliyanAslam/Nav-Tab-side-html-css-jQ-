@@ -1,0 +1,281 @@
+/* NAVBAR  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+    }
+    
+
+nav{
+position: absolute;
+left: 50px;
+top: -40px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 15vh;
+/* border: 1px black solid; */
+transition: 0.3s;
+}
+
+nav .navbar-brand{
+/* display: flex;
+align-items: center;
+justify-content: center; */
+margin-top: 35px;
+
+}
+
+nav input{
+margin-top: 80px;
+
+
+}
+nav button{
+position: relative;
+left: 260px;
+bottom: 40px;
+}
+
+
+nav.enjoy{
+left: 303px;
+
+
+}
+
+
+/* SIDE BAR CSS  */
+
+
+
+    /* body{
+    
+    margin: 0;
+    padding: 0;
+    
+    } */
+    
+     header{
+    
+        position: absolute;
+        top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    transition: 0.3s;
+    
+     }
+    
+    header.enjoy{
+    left: 0;
+    
+    
+     }
+    
+     ul{
+    
+        margin: 60px 0;
+    
+    
+     }
+    
+     ul li{
+        list-style: none;
+    
+     }
+    
+    ul li a{
+        display: block;
+        color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    }
+    
+    ul li a:hover{
+    
+        background-color: white;
+        color: black;
+    transition: 0.3s;
+    
+    }
+    
+    
+    .slide-bar-btn{
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    background-color:white;
+    
+    
+    }
+    
+    
+    .hamburger{
+    position: absolute;
+    background: black;
+    top: 50%;
+    left: 50%;
+    height: 3px;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    
+    
+    }
+    .hamburger::before{
+    top: 12px;
+    
+    }
+    .hamburger::after{
+        top: -12px;
+    
+    
+    }
+    
+    
+    .hamburger::before,
+    .hamburger::after
+    {
+        position: absolute;
+        content: "";
+        height: 3px;
+    width: 40px;
+    background: black;
+    left: 0;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    
+     
+    
+    }
+    
+    .slide-bar-btn.active .hamburger{
+        background: none;
+        box-shadow: none;
+    
+    }
+    .slide-bar-btn.active .hamburger::after{
+      top: 0;
+      transform: rotate(-45deg);
+    
+    
+    }
+    .slide-bar-btn.active .hamburger::before{
+      top: 0;
+      transform: rotate(45deg);
+    
+    
+    }
+
+
+
+
+
+/* END  */
+
+                                                /* TAB  */
+
+
+/* body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+background-color: #fff;
+
+
+} */
+
+.tab-wrap{
+list-style: none;
+width: 60%;
+padding: 0;
+position: relative;
+transition: 0.3s;
+
+}
+.tab-wrap input[type="radio"]
+{
+position: absolute;
+left: -9999px;
+top: -9999px;
+
+}
+
+.tab-wrap li{
+display: block;
+float: left;
+transition: 0.3s;
+
+
+
+}
+
+.tab-wrap label{
+cursor: pointer;
+background-color: orange;
+display: inline-block;
+padding: 11px 65px;
+margin: 0 20px 0 0;
+border-radius: 12px 12px 0 0 ;
+transition: 0.3s;
+
+}
+.tab-wrap label:hover{
+    background-color: rgba(255, 255, 255,0.9);
+    transition: 0.4s;
+
+}
+
+.tab-wrap .tab-content{
+background: #fff;
+display: none;
+padding: 15px;
+border-radius: 0 10px 10px 10px;
+position: absolute;
+left: 0;
+top: 40px;
+width: 100%;
+text-align: justify;
+transition: 0.3s;
+
+
+
+}
+
+
+.tab-wrap input[id^="tab"]:checked + label{
+
+
+    background-color: #fff;
+}
+.tab-wrap input[id^="tab"]:checked ~.tab-content{
+
+display: block;
+
+
+}
+
+
+.tab-wrap.enjoy{
+   
+left: 303px;
+
+
+}
+
