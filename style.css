@@ -9,40 +9,10 @@
     }
     
 
-nav{
-position: absolute;
-left: 50px;
-top: -40px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 15vh;
-/* border: 1px black solid; */
-transition: 0.3s;
-}
-
-nav .navbar-brand{
-/* display: flex;
-align-items: center;
-justify-content: center; */
-margin-top: 35px;
-
-}
-
-nav input{
-margin-top: 80px;
-
-
-}
-nav button{
-position: relative;
-left: 260px;
-bottom: 40px;
-}
-
 
 nav.enjoy{
 left: 303px;
+
 
 
 }
@@ -52,12 +22,6 @@ left: 303px;
 
 
 
-    /* body{
-    
-    margin: 0;
-    padding: 0;
-    
-    } */
     
      header{
     
@@ -191,15 +155,7 @@ left: 303px;
                                                 /* TAB  */
 
 
-/* body{
 
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-background-color: #fff;
-
-
-} */
 
 .tab-wrap{
 list-style: none;

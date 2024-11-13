@@ -1,146 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
 
-        $(document).ready(function() {
-        
-             $('.slide-bar-btn').click(function() {
-        
-                $('.slide-bar-btn').toggleClass('active');
-                $('.header01').toggleClass('enjoy');
+    $(document).ready(function () {
 
-                $('.tab-wrap').toggleClass('enjoy');
-    $('nav').toggleClass('enjoy');
+      $('.slide-bar-btn').click(function () {
 
+        $('.slide-bar-btn').toggleClass('active');
+        $('.header01').toggleClass('enjoy');
 
-             })
-        }) 
+        $('.tab-wrap').toggleClass('enjoy');
+        $('nav').toggleClass('enjoy');
 
 
+      })
+    })
 
-        </script>
+
+
+  </script>
 
 </head>
+
 <body>
-                                  <!-- NABBAR -->
+  <!-- NABBAR -->
 
-                                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                                    <a class="navbar-brand " href="#">Navbar</a>
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                      <span class="navbar-toggler-icon"></span>
-                                    </button>
-                                  
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                      <ul class="navbar-nav mr-auto">
-                                        <li class="nav-item active">
-                                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link" href="#">Link</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Dropdown
-                                          </a>
-                                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                          </div>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link disabled" href="#">Disabled</a>
-                                        </li>
-                                      </ul>
-                                      <form class="form-inline my-2 my-lg-0">
-                                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                                      </form>
-                                    </div>
-                                  </nav>
-
-
-
-
+   
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 
-                                 <!-- LEFT SIDE BAR  -->
-                                 
-<header class="header01" style="font-size: 12px;">
+
+
+  <!-- LEFT SIDE BAR  -->
+ 
+  <header class="header01" style="font-size: 12px;">
 
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">term</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">term</a></li>
 
-<button class="slide-bar-btn">
-    <div class="hamburger"></div>
-</button>
+      <button class="slide-bar-btn">
+        <div class="hamburger"></div>
+      </button>
 
 
 
 
     </ul>
-</header>
+  </header> 
 
 
 
-                                     <!-- TABS  -->
-    <ul class="tab-wrap">
-        <li>
-            <input type="radio" id="tab1" name="tab" checked>
-            <label for="tab1">tab1</label>
-            <div class="tab-content">
-                <h2>
-tab 1
-                </h2>
+  <!-- TABS  -->
+  <ul class="tab-wrap">
+    <li>
+      <input type="radio" id="tab1" name="tab" checked>
+      <label for="tab1">tab1</label>
+      <div class="tab-content">
+        <h2>
+          tab 1
+        </h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in, consequatur rerum odit magni fugit, nisi rem quae repudiandae non id eveniet aperiam neque asperiores! Exercitationem, unde sunt reiciendis, aspernatur consequatur vel facilis hic minus quod distinctio doloremque quia cum iusto fuga, est optio asperiores sint. Cum facere ipsa provident!</p>
-                <p>Lorem ipsum, dolor sit amet conseipisicing elit. Voluptatem explicabo vitae assumenda quidem, eius exercitationem adipisquid</p>
-            </div>
-        </li>
-    </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in, consequatur rerum odit magni fugit, nisi
+          rem quae repudiandae non id eveniet aperiam neque asperiores! Exercitationem, unde sunt reiciendis, aspernatur
+          consequatur vel facilis hic minus quod distinctio doloremque quia cum iusto fuga, est optio asperiores sint.
+          Cum facere ipsa provident!</p>
+        <p>Lorem ipsum, dolor sit amet conseipisicing elit. Voluptatem explicabo vitae assumenda quidem, eius
+          exercitationem adipisquid</p>
+      </div>
+    </li>
+  </ul>
 
-    <ul class="tab-wrap">
-        <li>
-            <input type="radio" id="tab2" name="tab" >
-            <label for="tab2">tab2</label>
-            <div class="tab-content">
-                <h2>
-tab 2
-                </h2>
+  <ul class="tab-wrap">
+    <li>
+      <input type="radio" id="tab2" name="tab">
+      <label for="tab2">tab2</label>
+      <div class="tab-content">
+        <h2>
+          tab 2
+        </h2>
 
-                <p>Lorem iic minus quod distinctio doloremque quia cum iusto fuga, est optio asperiores sint. Cum facere ipsa provident!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem explicabo vitae assumenda quidem, eius exercitationem adipur ea aspernatur totam sunt iste voluptas neque necessitatibus corporis earum quibusdam elin.</p>
-            </div>
-        </li>
-    </ul>
+        <p>Lorem iic minus quod distinctio doloremque quia cum iusto fuga, est optio asperiores sint. Cum facere ipsa
+          provident!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem explicabo vitae assumenda quidem, eius
+          exercitationem adipur ea aspernatur totam sunt iste voluptas neque necessitatibus corporis earum quibusdam
+          elin.</p>
+      </div>
+    </li>
+  </ul>
 
-    <ul class="tab-wrap">
-        <li>
-            <input type="radio" id="tab3" name="tab" >
-            <label for="tab3">tab3</label>
-            <div class="tab-content">
-                <h2>
-tab 3
-                </h2>
+  <ul class="tab-wrap">
+    <li>
+      <input type="radio" id="tab3" name="tab">
+      <label for="tab3">tab3</label>
+      <div class="tab-content">
+        <h2>
+          tab 3
+        </h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in, consequatur rerum odit magni fugit, nisi rem quae repudiandae non id eveniet aperiam neque asperiores! Exercitationem, unde sunt reiciendis, aspernatur consequatur vel facilis hic minus quod distinctio doloremque quia cum iusto fuga, est optio asperiores sint. Cum facere ipsa provident!</p>
-              
-            </div>
-        </li>
-    </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in, consequatur rerum odit magni fugit, nisi
+          rem quae repudiandae non id eveniet aperiam neque asperiores! Exercitationem, unde sunt reiciendis, aspernatur
+          consequatur vel facilis hic minus quod distinctio doloremque quia cum iusto fuga, est optio asperiores sint.
+          Cum facere ipsa provident!</p>
+
+      </div>
+    </li>
+  </ul>
 
 
 
@@ -148,4 +160,5 @@ tab 3
 
 
 </body>
+
 </html>
