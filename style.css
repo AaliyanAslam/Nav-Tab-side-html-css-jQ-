@@ -7,7 +7,34 @@
     font-family: Verdana, Tahoma, sans-serif;
     
     }
-    
+
+    nav {
+
+        display: flex;
+        height: 10vh;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    nav li  {
+margin-bottom: 30px;
+
+    }
+    nav li a:hover {
+border-radius: 30px;
+
+
+
+
+    }
+
+    .dropdown-menu{
+font-size: 12px;
+
+
+    }
+
+
 
 
 nav.enjoy{
