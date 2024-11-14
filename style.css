@@ -186,10 +186,11 @@ left: 303px;
 
 .tab-wrap{
 list-style: none;
-width: 60%;
+width: 70%;
 padding: 0;
 position: relative;
 transition: 0.3s;
+
 
 }
 .tab-wrap input[type="radio"]
@@ -217,6 +218,8 @@ padding: 11px 65px;
 margin: 0 20px 0 0;
 border-radius: 12px 12px 0 0 ;
 transition: 0.3s;
+
+
 
 }
 .tab-wrap label:hover{
@@ -259,6 +262,43 @@ display: block;
    
 left: 303px;
 
+
+}
+
+
+@media only screen and (max-width:944px){
+
+ 
+
+    .tab-wrap label{
+flex-wrap: wrap;
+
+
+    }
+    
+    .tab-wrap .tab-content{
+flex-wrap: wrap;
+
+
+    }
+
+
+
+    @media only screen and (max-width:808px){
+
+        .tab-wrap .tab-content{
+            margin-top: 50px;
+        }
+
+    @media only screen and (max-width:540px){
+
+        .tab-wrap .tab-content{
+            margin-top: 100px;
+        }
+
+        
+    }
+    
 
 }
 
